@@ -1,1 +1,1 @@
-web: ./build/install/theblog/bin/theblog
+web: java $JAVA_OPTS -cp target/classes:target/dependency/* com.example

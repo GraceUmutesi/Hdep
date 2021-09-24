@@ -1,6 +1,9 @@
 plugins {
     id 'java'
+
 }
+archivesBaseName = "theblog"
+
 
 group 'org.example'
 version '1.0-SNAPSHOT'
